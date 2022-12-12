@@ -1,0 +1,45 @@
+body{
+    font-family: 'Lato', sans-serif;
+    color: #F3EFE0;
+    display: inline-block;
+    background-color: #222222;
+    width:  100%;
+}
+#k{
+    margin-left: 0px;
+    width: 100%;
+}
+h1{
+    color: #22A39F;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+h2{
+    margin: 5px;
+}
+
+#test{
+    width: fit-content;
+    margin-right: 0px;
+    display: inline-block;
+}
+#img2{
+    width: fit-content;
+    border-radius: 8px;
+    margin: 5px;
+    overflow: hidden;
+}
+
+
+p{
+    margin: 10px;
+}
+
+#erreur{
+    background-color: red;
+}
+
+#communes{
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
