@@ -18,7 +18,7 @@ form.addEventListener("submit", function(e) {
 
     console.log(input);
 
-    fetch(`https://api.giphy.com/v1/gifs/search?api_key=AQRlpOFY73tVKqTroLnLrEG07ktFfIRm&q=${input}&limit=25&offset=0&rating=g&lang=en`)
+    fetch(`https://api.giphy.com/v1/gifs/search?api_key=CLEAPI&q=${input}&limit=25&offset=0&rating=g&lang=en`)
     .then((response) => response.json())
     .then((data) => {console.log(data)
 
